@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: "Lexend Deca", sans-serif;
+}
+#blok1{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: white;
+}
+#blok2{
+    width: 100%;
+    height: 100%;
+    background-color: #DA0037;
+    position: absolute;
+    margin-top: 60%;
+    color: white;
+}
+#uvod{
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+#popis{
+    width: 100%;
+    height: 50%;
+    color: black;
+    background: white;
+}
+.obsah{
+    margin: 50px;
+}
+nav{
+    display: inline-flex;
+    width: 100%;
+}
+#navLeft{
+    width: 50%;
+    display: inline-flex;
+}
+.nameNav{
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 500;
+}
+#navRight{
+    width: 50%;
+}
+.link{
+    position: absolute;
+    margin-top: auto;
+    margin-bottom: auto;
+    visibility: hidden;
+}
+.button{
+    position: relative;
+    float: right;
+}
+#navRight:first-child{
+    margin-left: 50px;
+}
+.linkNav{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin-left: 50px;
+}
+.linky{
+    margin: auto;
+    position: absolute;
+    display: block;
+    float: right;
+}
+.liamIllustration{
+    position: absolute;
+    width: 29%;
+    left: 55%;
+    top: 30%;
+}
+.rightSideText{
+    margin-top: 10%;
+}
+.pageName{
+    font-size: 48px;
+    font-family: "Lexend Deca", sans-serif;
+    width: 50%;
+}
+.category{
+    font-size: 24px;
+    font-weight: 400;
+    color: #848484;
+}
