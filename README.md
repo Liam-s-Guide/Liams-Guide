@@ -1,4 +1,4 @@
 # Liam-s-Guide
 Školní projekt do soutěže SOČ.
 
-https://liamsguide.netlify.app/
+<a target:"_blank">https://liamsguide.netlify.app/</a>
