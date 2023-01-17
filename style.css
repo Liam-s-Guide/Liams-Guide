@@ -1,7 +1,14 @@
 body{
-    margin: 0;
+    margin: 10% 0 0 0;
+    transition: 1s;
     background-color: white;
     font-family: "Lexend Deca", sans-serif;
+    animation: bodySlide 2ms ease-in;
+}
+@keyframes bodySlide {
+    0% {margin: 10% 0 0 0;}
+    50%{margin: 5% 0 0 0;}
+    100% {margin: 0 0 0 0;}
 }
 #blok1{
     width: 100%;
