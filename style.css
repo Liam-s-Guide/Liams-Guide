@@ -3,7 +3,8 @@ body{
     transition: 1s;
     background-color: white;
     font-family: "Lexend Deca", sans-serif;
-    animation: bodySlide 2ms ease-in;
+    animation: bodySlide 200ms ease-in;
+    animation-delay: 2s;
 }
 @keyframes bodySlide {
     0% {margin: 10% 0 0 0;}
@@ -120,21 +121,6 @@ nav{
     opacity: 1;
     transition: 500ms;
 }
-.loader {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    position: relative;
-    animation: loader 2s infinite ease;
-}
-
-@keyframes loader {
-    0% { transform: rotate(0deg);}
-    25% { transform: rotate(180deg);}
-    50% { transform: rotate(180deg);}
-    75% { transform: rotate(360deg);}
-    100% { transform: rotate(360deg);}
-}
 #logo{
     width: 100%;
 }
@@ -144,4 +130,9 @@ nav{
 }
 #loading{
     width: 100%;
+}
+#anim{
+    width: 100%;
+    margin: 0 auto;
+    filter: inherit;
 }
