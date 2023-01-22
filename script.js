@@ -1,9 +1,9 @@
     let myVar;
 
     function myFunction() {
-    myVar = setTimeout(showContent, 4500);
-    myVar = setTimeout(showPage, 5000);
-    myVar = setTimeout(display, 6550);
+    myVar = setTimeout(showContent, 5500);
+    myVar = setTimeout(showPage, 6000);
+    myVar = setTimeout(display, 7550);
 }
     function showContent(){
     document.getElementById("myDiv").style.display = "block";

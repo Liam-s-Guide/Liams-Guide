@@ -1,6 +1,6 @@
 body{
     margin: 10% 0 0 0;
-    transition: 1s;
+    transition: 750ms;
     background-color: white;
     font-family: "Lexend Deca", sans-serif;
     animation: bodySlide 200ms ease-in;
@@ -134,5 +134,8 @@ nav{
 #anim{
     width: 100%;
     margin: 0 auto;
-    filter: inherit;
+    filter: invert(110%);
+}
+.loading{
+    background-color: #DA0037;
 }
