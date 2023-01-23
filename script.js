@@ -4,7 +4,7 @@
     myVar = setTimeout(showContent, 5500);
     myVar = setTimeout(showPage, 6000);
     myVar = setTimeout(display, 7550);
-    myVar = setTimeout(liamSlide, 6250);
+    myVar = setTimeout(liamSlide, 6500);
 }
     function showContent(){
     document.getElementById("myDiv").style.display = "block";
