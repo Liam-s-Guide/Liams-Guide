@@ -1,15 +1,19 @@
 body{
     margin: 10% 0 0 0;
-    transition: 500ms;
+    transition: 1s;
     background-color: white;
     font-family: "Lexend Deca", sans-serif;
-    animation: bodySlide 200ms ease-in;
+    animation: bodySlide 1s ease-in;
     animation-delay: 2s;
 }
 @keyframes bodySlide {
     0% {margin: 10% 0 0 0;}
     50%{margin: 5% 0 0 0;}
     100% {margin: 0 0 0 0;}
+}
+#opacityContent{
+    opacity: 0;
+    transition: 1s;
 }
 #blok1{
     width: 100%;
