@@ -56,29 +56,31 @@ nav{
     width: 50%;
 }
 .link{
-    position: absolute;
     margin-top: auto;
     margin-bottom: auto;
-    visibility: hidden;
-}
-.button{
+    display: inline-flex;
     position: relative;
     float: right;
-}
-#navRight:first-child{
-    margin-left: 50px;
 }
 .linkNav{
     text-decoration: none;
     color: grey;
     font-size: 20px;
-    margin-left: 50px;
-}
-.linky{
-    margin: auto;
-    position: absolute;
-    display: block;
+    margin-right: 50px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
     float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+#discoverButton{
+    display: block;
+}
+#hamburgerLink{
+    display: none;
 }
 .liamIllustration{
     position: absolute;
@@ -128,10 +130,280 @@ nav{
     width: 75%;
     display: block;
 }
-#loading{
+.loading{
     width: 100%;
 }
 #anim{
-    width: 100%;
+    width: 50%;
     margin: 0 auto;
+}
+@media (max-width: 950px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+
+    #blok2{
+        width: 100%;
+        height: 100%;
+        background-color: #DA0037;
+        position: absolute;
+        margin-top: 135%;
+        color: white;
+    }
+    .liamIllustration{
+        position: absolute;
+        width: 45%;
+        left: 45%;
+        top: 50%;
+    }
+    #anim{
+        width: 75%;
+    }
+    #loader-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        transition: 500ms;
+    }
+}
+
+@media (max-width: 650px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        margin-left: 30px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #blok2{
+        width: 100%;
+        height: 100%;
+        background-color: #DA0037;
+        position: absolute;
+        margin-top: 135%;
+        color: white;
+    }
+    .liamIllustration{
+        position: absolute;
+        width: 45%;
+        margin-left: -15%;
+        top: 65%;
+    }
+    #anim{
+        width: 90%;
+    }
+    #loader-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        transition: 500ms;
+    }
+    #mainContent{
+        text-align: center;
+    }
+    .pageName{
+        font-size: 3em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 505px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        visibility: hidden;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #anim{
+        width: 100%;
+    }
+
+    #blok2{
+        width: 100%;
+        height: 100%;
+        background-color: #DA0037;
+        position: absolute;
+        margin-top: 160%;
+        color: white;
+    }
+    .liamIllustration{
+        position: absolute;
+        width: 50%;
+        top: 55%;
+    }
+    .pageName{
+        font-size: 2em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 450px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        visibility: hidden;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #blok2{
+        width: 100%;
+        height: 100%;
+        background-color: #DA0037;
+        position: absolute;
+        margin-top: 225%;
+        color: white;
+    }
+    .liamIllustration{
+        position: absolute;
+        width: 65%;
+        margin-left: -25%;
+        top: 58%;
+    }
+    .pageName{
+        font-size: 2em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 400px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        visibility: hidden;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #blok2{
+        width: 100%;
+        height: 100%;
+        background-color: #DA0037;
+        position: absolute;
+        margin-top: 250%;
+        color: white;
+    }
+    .liamIllustration{
+        position: absolute;
+        width: 65%;
+        top: 58%;
+    }
+    .pageName{
+        font-size: 2em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1em;
+        font-weight: 400;
+        color: #848484;
+    }
 }
