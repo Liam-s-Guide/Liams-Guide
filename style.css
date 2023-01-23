@@ -134,8 +134,4 @@ nav{
 #anim{
     width: 100%;
     margin: 0 auto;
-    filter: invert(110%);
-}
-.loading{
-    background-color: #DA0037;
 }
