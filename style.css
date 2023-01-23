@@ -1,6 +1,6 @@
 body{
     margin: 10% 0 0 0;
-    transition: 750ms;
+    transition: 500ms;
     background-color: white;
     font-family: "Lexend Deca", sans-serif;
     animation: bodySlide 200ms ease-in;
@@ -27,6 +27,7 @@ body{
     position: absolute;
     width: 29%;
     left: 55%;
+    opacity: 0;
     top: 30%;
     z-index: -1;
     -webkit-user-drag: none;
@@ -34,6 +35,7 @@ body{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+    transition: 500ms;
 }
 #uvod{
     width: 100%;
