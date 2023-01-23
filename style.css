@@ -29,6 +29,11 @@ body{
     left: 55%;
     top: 30%;
     z-index: -1;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 #uvod{
     width: 100%;
@@ -99,6 +104,13 @@ nav{
     font-size: 24px;
     font-weight: 400;
     color: #848484;
+}
+.logo{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 /*LOADING*/
