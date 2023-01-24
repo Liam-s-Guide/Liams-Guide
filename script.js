@@ -1,10 +1,10 @@
     let myVar;
 
     function myFunction() {
-    myVar = setTimeout(showContent, 5500);
-    myVar = setTimeout(showPage, 6000);
-    myVar = setTimeout(display, 7550);
-    myVar = setTimeout(liamSlide, 6750);
+    myVar = setTimeout(showContent, 3500);
+    myVar = setTimeout(showPage, 4000);
+    myVar = setTimeout(display, 5550);
+    myVar = setTimeout(liamSlide, 4750);
 }
     function showContent(){
     document.getElementById("myDiv").style.display = "block";
