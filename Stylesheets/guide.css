@@ -1,0 +1,435 @@
+body{
+    margin: 10% 0 0 0;
+    transition: 1s;
+    background-color: white;
+    font-family: "Lexend Deca", sans-serif;
+    animation: bodySlide 1s ease-in;
+    animation-delay: 2s;
+}
+@keyframes bodySlide {
+    0% {margin: 10% 0 0 0;}
+    50%{margin: 5% 0 0 0;}
+    100% {margin: 0 0 0 0;}
+}
+#opacityContent{
+    opacity: 0;
+    transition: 1s;
+}
+#blok1{
+    width: 100%;
+    height: 100%;
+}
+#blok2{
+    width: 100%;
+    height: 100%;
+    background-color: #DA0037;
+    position: absolute;
+    margin-top: 20%;
+    color: white;
+}
+nav{
+    display: inline-flex;
+    width: 100%;
+}
+#navLeft{
+    width: 50%;
+    display: inline-flex;
+}
+.nameNav{
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#navRight{
+    width: 50%;
+}
+.link{
+    margin-top: auto;
+    margin-bottom: auto;
+    display: inline-flex;
+    position: relative;
+    float: right;
+}
+.linkNav{
+    text-decoration: none;
+    color: grey;
+    font-size: 20px;
+    margin-right: 50px;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+
+}
+#discoverButton{
+    display: block;
+}
+#hamburgerLink{
+    display: none;
+}
+.rightSideText{
+    margin-top: 10%;
+}
+.pageName{
+    font-size: 48px;
+    font-family: "Lexend Deca", sans-serif;
+    width: 50%;
+}
+.category{
+    font-size: 24px;
+    font-weight: 400;
+    color: #848484;
+}
+.logo{
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+/*LOADING*/
+/*LOADING*/
+/*LOADING*/
+
+#myDiv{
+    opacity: 0;
+    display: none;
+    transition: 500ms;
+}
+#loader-wrapper{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+    transition: 500ms;
+}
+#logo{
+    width: 100%;
+}
+.portImage{
+    width: 75%;
+    display: block;
+}
+.loading{
+    width: 100%;
+}
+#anim{
+    width: 50%;
+    margin: 0 auto;
+}
+
+/*OBSAH*/
+/*OBSAH*/
+/*OBSAH*/
+
+#uvod{
+    width: 80%;
+    color: white;
+    padding: 50px;
+}
+
+#popis{
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: white;
+}
+
+.obsah{
+    margin: 50px;
+}
+
+
+.places{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.guideObsah{
+    padding: 50px;
+}
+@media (max-width: 1400px){
+    #blok2{
+        margin-top: 15%;
+    }
+    .liamIllustration{
+        top: 35%;
+    }
+}
+@media (max-width: 950px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+
+    #blok2{
+        margin-top: 40%;
+    }
+    .liamIllustration{
+        top: 28%;
+        width: 50%;
+        left: 40%;
+    }
+    #anim{
+        width: 75%;
+    }
+    #loader-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        transition: 500ms;
+    }
+}
+@media (max-width: 850px){
+    #blok2{
+        margin-top: 55%;
+    }
+    .liamIllustration{
+        top: 35%;
+    }
+}
+@media (max-width: 775px){
+    #blok2{
+        margin-top: 60%;
+    }
+    .liamIllustration{
+        top: 45%;
+    }
+}
+
+@media (max-width: 650px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        margin-left: 30px;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #blok2{
+        margin-top: 75%;
+    }
+    .liamIllustration{
+        top: 70%;
+        left: 25%
+    }
+    #anim{
+        width: 90%;
+    }
+    #loader-wrapper{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 1;
+        transition: 500ms;
+    }
+    #mainContent{
+        text-align: center;
+    }
+    .pageName{
+        font-size: 3em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1.5em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 505px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        visibility: hidden;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #anim{
+        width: 100%;
+    }
+
+    #blok2{
+        margin-top: 75%;
+    }
+    .liamIllustration{
+        top: 47%;
+        left: 25%
+    }
+    .pageName{
+        font-size: 2em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 450px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        visibility: hidden;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #blok2{
+        margin-top: 75%;
+    }
+    .liamIllustration{
+        top: 60%;
+        left: 25%
+    }
+    .pageName{
+        font-size: 2em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 400px) {
+    #discoverButton{
+        display: none;
+    }
+    #hamburgerLink{
+        display: flex;
+        justify-content: center;
+        margin-top: 100%;
+    }
+    .linkNav{
+        display:none;
+    }
+    nav{
+        display: inline-flex;
+        width: 100%;
+    }
+    #navLeft{
+        width: 75%;
+        display: inline-flex;
+    }
+    .nameNav{
+        visibility: hidden;
+    }
+    #navRight{
+        width: 25%;
+    }
+
+    #blok2{
+        margin-top: 75%;
+    }
+    .liamIllustration{
+        top: 63%;
+        left: 25%
+    }
+    .pageName{
+        font-size: 2em;
+        font-family: "Lexend Deca", sans-serif;
+        width: 100%;
+    }
+    .category{
+        font-size: 1em;
+        font-weight: 400;
+        color: #848484;
+    }
+}
+@media (max-width: 380px){
+    #blok2{
+        margin-top: 75%;
+    }
+    .liamIllustration{
+        top: 75%;
+        left: 25%
+    }
+}
