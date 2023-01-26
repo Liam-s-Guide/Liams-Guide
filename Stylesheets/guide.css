@@ -98,7 +98,7 @@ nav{
     display: none;
     transition: 500ms;
 }
-#loader-wrapper{
+#loader-wrapper-Guide{
     width: 100%;
     height: 100%;
     position: absolute;
@@ -120,7 +120,7 @@ nav{
 .loading{
     width: 100%;
 }
-#anim{
+#animG{
     width: 50%;
     margin: 0 auto;
 }
@@ -187,16 +187,6 @@ nav{
     #anim{
         width: 75%;
     }
-    #loader-wrapper{
-        position: absolute;
-        top: 0;
-        left: 0;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 1;
-        transition: 500ms;
-    }
 }
 @media (max-width: 850px){
     .liamIllustration{
@@ -243,16 +233,6 @@ nav{
     }
     #anim{
         width: 90%;
-    }
-    #loader-wrapper{
-        position: absolute;
-        top: 0;
-        left: 0;
-        display:flex;
-        justify-content: center;
-        align-items: center;
-        opacity: 1;
-        transition: 500ms;
     }
     #mainContent{
         text-align: center;
