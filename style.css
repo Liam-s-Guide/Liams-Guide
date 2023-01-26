@@ -88,7 +88,7 @@ nav{
 #discoverButton{
     display: block;
 }
-#hamburgerLink{
+#hamburger{
     display: none;
 }
 .rightSideText{
@@ -110,6 +110,29 @@ nav{
     -moz-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
+}
+
+#hamburgerMenu{
+    text-align: center;
+    opacity: 0;
+    padding: 50px;
+    transition: 500ms;
+}
+.contentHam{
+    width: 100%;
+    margin-top: 5%;
+}
+.linkHamburger{
+    text-decoration: none;
+    color: #2D2D2D;
+    transition: 200ms;
+}
+.linkHamburger:hover{
+    color: #000000;
+    transition: 200ms;
+}
+#discover{
+    color: #DA0037;
 }
 
 /*LOADING*/
@@ -188,7 +211,7 @@ nav{
     #discoverButton{
         display: none;
     }
-    #hamburgerLink{
+    #hamburger{
         display: flex;
         justify-content: center;
         margin-top: 100%;
@@ -239,11 +262,6 @@ nav{
 @media (max-width: 650px) {
     #discoverButton{
         display: none;
-    }
-    #hamburgerLink{
-        display: flex;
-        justify-content: center;
-        margin-top: 100%;
     }
     .linkNav{
         display:none;
@@ -303,11 +321,6 @@ nav{
     #discoverButton{
         display: none;
     }
-    #hamburgerLink{
-        display: flex;
-        justify-content: center;
-        margin-top: 100%;
-    }
     .linkNav{
         display:none;
     }
@@ -352,11 +365,6 @@ nav{
     #discoverButton{
         display: none;
     }
-    #hamburgerLink{
-        display: flex;
-        justify-content: center;
-        margin-top: 100%;
-    }
     .linkNav{
         display:none;
     }
@@ -396,11 +404,6 @@ nav{
 @media (max-width: 400px) {
     #discoverButton{
         display: none;
-    }
-    #hamburgerLink{
-        display: flex;
-        justify-content: center;
-        margin-top: 100%;
     }
     .linkNav{
         display:none;
