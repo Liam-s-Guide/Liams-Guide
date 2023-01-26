@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liam's Guide - Discover</title>
+    <link rel="stylesheet" href="../Stylesheets/guide.css">
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../Stylesheets/designsystem.css">
+    <link rel="stylesheet" href="../Stylesheets/placeImagesAttach.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+</head>
+<body onload="myFunction()">
+
+<div id="myDiv">
+  <div id="opacityContent">
+    <div id="blok1">
+      <div class="obsah">
+        <nav>
+          <div id="navLeft">
+            <img src="../Images/coloredLogo.svg" alt="logo" class="logo">
+            <h1 class="nameNav">Liam's Guide</h1>
+          </div>
+          <div id="navRight">
+            <div class="link">
+              <a href="../" class="linkNav" id="home">Home</a>
+              <a href="" class="linkNav" id="contact">Contact</a>
+              <a href="" class="linkNav" id="info">Info</a>
+              <div class="button">
+                <button class="primaryBigButton" id="discoverButton">Discover</button>
+                <a href="" id="hamburgerLink"><img alt="hamburger" src="../Images/hamburger.svg" id="hamburger"></a>
+              </div>
+            </div>
+          </div>
+        </nav>
+
+        <div id="mainContent">
+          <div class="rightSideText">
+            <h4 class="category">Guide</h4>
+            <h1 class="pageName">Discover your city... Like a pro!</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="blok2">
+      <div id="uvod">
+        <div class="funkceObsah">
+          <h4>Filters:</h4>
+
+
+
+          <script src="buttonFilter.js"></script>
+          <div id="filter">
+            <div class="checkbox">
+              <label><input type="checkbox" rel="cafe" onchange="change()" /> Cafe</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" rel="restarant" onchange="change()" /> Restaurant</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" rel="bistro" onchange="change()" /> Bistro</label>
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" rel="donuts" onchange="change()" /> Donuts</label>
+            </div>
+            <!--<div class="checkbox">
+              <label><input type="checkBox" rel="filterOption" /></label>
+            </div>
+          </div>-->
+
+
+
+
+        </div>
+      </div>
+      <div id="popis">
+        <div class="guideObsah">
+          <h1>Places</h1>
+          <div class="places">
+
+            <!--<div class="blockPlace" id="pikola">
+
+              <div class="textPlace">
+                <div class="companyName">
+                  <h2 class="card-title">Pikola</h2>
+                  <h4 class="card-text">Café</h4>
+                </div>
+
+                <div class="card-text">
+                  <h4>Polská, Šumperk</h4>
+                </div>
+              </div>
+
+            </div>-->
+            <div class="cafe">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/pikola.jpg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Café</p>
+                  <h3 class="imageName">Pikola</h3>
+                  <p class="imageAddress">Polská 3, Šumperk</p>
+                </div>
+              </div>
+          </div>
+
+            <div class="cafe">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/pikolaZ.jpeg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Café</p>
+                  <h3 class="imageName">Pikola</h3>
+                  <p class="imageAddress">Zábřežská, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="cafe">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/kavomilka.jpg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Café</p>
+                  <h3 class="imageName">Kávomilka</h3>
+                  <p class="imageAddress">Krátká 2863/2, Růžová, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bistro">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/bistrojj.jpeg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Restaurant</p>
+                  <h3 class="imageName">Bistro J&J</h3>
+                  <p class="imageAddress">Gen. Svobody 244/9, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="bistro">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/cakir.jpeg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Bistro</p>
+                  <h3 class="imageName">Cakir's Burger</h3>
+                  <p class="imageAddress">nám. Míru 22, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="restarant">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/arte.jpeg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Restaurant</p>
+                  <h3 class="imageName">Arte</h3>
+                  <p class="imageAddress">Husitská 2635, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="donuts">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/donutpoint.jpeg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Donuts</p>
+                  <h3 class="imageName">Donutpoint</h3>
+                  <p class="imageAddress">Hlavní tř. 8/13, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<div id="loader-wrapper" class="loading">
+  <div id="anim"></div>
+  <script src="lottie.js"></script>
+  <script src="loading.js"></script>
+</div>
+
+</body>
+</html>
