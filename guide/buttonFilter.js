@@ -10,7 +10,13 @@ function change(){
     if(allAreUnselected){
        chekboxInputs.forEach(function(input){
           Array.from(document.querySelectorAll("." + input.getAttribute("rel"))).forEach(function(item){
+              let myVarGuide;
+              myVarGuide = setTimeout(display, 50);
               item.style.display = 'block';
+              function display(){
+                  item.style.opacity = '1';
+                  item.style.transition = '500ms';
+              }
           });
        });
     }
@@ -19,7 +25,10 @@ function change(){
       chekboxInputs.forEach(function(input){
           // finding results for each checkbox option
           Array.from(document.querySelectorAll("." + input.getAttribute("rel"))).forEach(function(item){
-            item.style.display = input.checked ? 'block' : 'none';
+
+              item.style.display = input.checked ? 'block' : 'none';
+              item.style.opacity = input.checked ? '1' : '0';
+              item.style.transition = '500ms';
 
           });
        });
