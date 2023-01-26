@@ -307,13 +307,54 @@
     inset: 0;
     transition: 200ms;
 }
-.imageCategory{
-
-}
 .imageName{
     margin-top: -10px;
 }
 .imageAddress{
     margin-top: 90px;
 }
+
+/*FILTR*/
+/*FILTR*/
+/*FILTR*/
+
+.filterButton{
+    margin: 4px;
+    background-color: #F1F1F1;
+    color: black;
+    border-radius: 100px;
+    overflow: hidden;
+    float: left;
+    transition: 200ms;
+  }
+  
+  .filterButton label {
+    float: left; line-height: 3.0em;
+    width: 10.0em; height: 3.0em;
+    transition: 200ms;
+  }
+  
+  .filterButton label span {
+    text-align: center;
+    padding: 15px 15;
+    display: block;
+    transition: 200ms;
+  }
+  
+  .filterButton label input {
+    position: absolute;
+    display: none;
+    color: black;
+    transition: 200ms;
+  }
+  /* selects all of the text within the input element and changes the color of the text */
+  .filterButton label input + span{color: black; transition: 200ms; font-weight: 600; font-family: "Lexend Deca", sans-serif;}
+  
+  
+  /* This will declare how a selected input will look giving generic properties */
+  .filterButton input:checked + span {
+      color: white;
+      background-color: #DA0037;
+      transition: 200ms;
+  }
 

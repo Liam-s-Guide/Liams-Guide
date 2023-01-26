@@ -17,15 +17,11 @@ body{
 }
 #blok1{
     width: 100%;
-    height: 100%;
 }
 #blok2{
     width: 100%;
     height: 100%;
-    background-color: #DA0037;
     position: absolute;
-    margin-top: 20%;
-    color: white;
 }
 nav{
     display: inline-flex;
@@ -134,9 +130,8 @@ nav{
 /*OBSAH*/
 
 #uvod{
-    width: 80%;
-    color: white;
-    padding: 50px;
+    width: 100%;
+    color: black;
 }
 
 #popis{
@@ -162,10 +157,12 @@ nav{
 .guideObsah{
     padding: 50px;
 }
+.funkceObsah{
+    padding: 50px;
+    color: black;
+}
+
 @media (max-width: 1400px){
-    #blok2{
-        margin-top: 15%;
-    }
     .liamIllustration{
         top: 35%;
     }
@@ -181,10 +178,6 @@ nav{
     }
     .linkNav{
         display:none;
-    }
-
-    #blok2{
-        margin-top: 40%;
     }
     .liamIllustration{
         top: 28%;
@@ -206,17 +199,11 @@ nav{
     }
 }
 @media (max-width: 850px){
-    #blok2{
-        margin-top: 55%;
-    }
     .liamIllustration{
         top: 35%;
     }
 }
 @media (max-width: 775px){
-    #blok2{
-        margin-top: 60%;
-    }
     .liamIllustration{
         top: 45%;
     }
@@ -249,10 +236,6 @@ nav{
     }
     #navRight{
         width: 25%;
-    }
-
-    #blok2{
-        margin-top: 75%;
     }
     .liamIllustration{
         top: 70%;
@@ -315,10 +298,6 @@ nav{
     #anim{
         width: 100%;
     }
-
-    #blok2{
-        margin-top: 75%;
-    }
     .liamIllustration{
         top: 47%;
         left: 25%
@@ -359,10 +338,6 @@ nav{
     }
     #navRight{
         width: 25%;
-    }
-
-    #blok2{
-        margin-top: 75%;
     }
     .liamIllustration{
         top: 60%;
@@ -405,10 +380,6 @@ nav{
     #navRight{
         width: 25%;
     }
-
-    #blok2{
-        margin-top: 75%;
-    }
     .liamIllustration{
         top: 63%;
         left: 25%
@@ -425,9 +396,6 @@ nav{
     }
 }
 @media (max-width: 380px){
-    #blok2{
-        margin-top: 75%;
-    }
     .liamIllustration{
         top: 75%;
         left: 25%
