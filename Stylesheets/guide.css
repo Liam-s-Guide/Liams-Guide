@@ -159,7 +159,7 @@ nav{
     margin-right: auto;
 }
 .guideObsah{
-    padding: 0 50px 0 50px;
+    padding: 0 50px 50px 50px;
 }
 .funkceObsah{
     padding: 0 50px 0 50px;
@@ -203,7 +203,7 @@ nav{
         grid-template-columns: repeat(2, 1fr);
     }
     .guideObsah{
-        padding: 0 35px 0 35px;
+        padding: 0 35px 35px 35px;
     }
     .funkceObsah{
         padding: 0 35px 0 35px;

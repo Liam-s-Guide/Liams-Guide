@@ -375,3 +375,22 @@
       transition: 200ms;
   }
 
+@media (max-width: 505px){
+    .filterButton{
+        margin: 7px;
+        background-color: #F1F1F1;
+        color: black;
+        border-radius: 100px;
+        overflow: hidden;
+        float: left;
+        transition: 200ms;
+        touch-action: none;
+
+    }
+
+    .filterButton label {
+        float: left; line-height: 3.0em;
+        width: 8.5em; height: 3.0em;
+    }
+}
+
