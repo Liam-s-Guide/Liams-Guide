@@ -94,6 +94,30 @@ nav{
     -ms-user-select: none;
 }
 
+
+#hamburgerMenu{
+    text-align: center;
+    opacity: 0;
+    padding: 50px;
+    transition: 500ms;
+}
+.contentHam{
+    width: 100%;
+    margin-top: 5%;
+}
+.linkHamburger{
+    text-decoration: none;
+    color: #2D2D2D;
+    transition: 200ms;
+}
+.linkHamburger:hover{
+    color: #000000;
+    transition: 200ms;
+}
+#discover{
+    color: #DA0037;
+}
+
 /*LOADING*/
 /*LOADING*/
 /*LOADING*/
