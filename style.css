@@ -117,6 +117,7 @@ nav{
     opacity: 0;
     padding: 50px;
     transition: 500ms;
+    display: none;
 }
 .contentHam{
     width: 100%;
