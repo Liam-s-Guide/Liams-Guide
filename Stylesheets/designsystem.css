@@ -290,6 +290,11 @@
     filter: brightness(40%);
     transition: 200ms;
     border-radius: 10px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 
 .overlay {
