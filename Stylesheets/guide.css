@@ -163,9 +163,7 @@ nav{
 }
 
 @media (max-width: 1400px){
-    .liamIllustration{
-        top: 35%;
-    }
+
 }
 @media (max-width: 950px) {
     #discoverButton{
@@ -187,6 +185,11 @@ nav{
     #anim{
         width: 75%;
     }
+
+
+    .places{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media (max-width: 850px){
     .liamIllustration{
@@ -196,6 +199,9 @@ nav{
 @media (max-width: 775px){
     .liamIllustration{
         top: 45%;
+    }
+    .places{
+        grid-template-columns: repeat(1, 1fr);
     }
 }
 
@@ -333,6 +339,10 @@ nav{
         font-weight: 400;
         color: #848484;
     }
+    #popis{
+        margin-top: 40%;
+        display: block;
+    }
 }
 @media (max-width: 400px) {
     #discoverButton{
@@ -355,14 +365,10 @@ nav{
         display: inline-flex;
     }
     .nameNav{
-        visibility: hidden;
+        display: none;
     }
     #navRight{
         width: 25%;
-    }
-    .liamIllustration{
-        top: 63%;
-        left: 25%
     }
     .pageName{
         font-size: 2em;
@@ -373,6 +379,18 @@ nav{
         font-size: 1em;
         font-weight: 400;
         color: #848484;
+    }
+
+    #uvod{
+        width: 100%;
+        color: black;
+        position: relative;
+        display: block;
+    }
+
+    #popis{
+        margin-top: 40%;
+        display: block;
     }
 }
 @media (max-width: 380px){
