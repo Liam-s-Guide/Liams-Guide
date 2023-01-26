@@ -23,9 +23,9 @@
           </div>
           <div id="navRight">
             <div class="link">
-              <a href="../" class="linkNav" id="home">Home</a>
-              <a href="" class="linkNav" id="contact">Contact</a>
-              <a href="" class="linkNav" id="info">Info</a>
+              <a href="../" class="linkNavG" id="home">Home</a>
+              <a href="" class="linkNavG" id="contact">Contact</a>
+              <a href="" class="linkNavG" id="info">Info</a>
               <div class="button">
                 <button class="primaryBigButton" id="discoverButton">Discover</button>
                 <a href="" id="hamburgerLink"><img alt="hamburger" src="../Images/hamburger.svg" id="hamburger"></a>
@@ -45,10 +45,9 @@
     <div id="blok2">
       <div id="uvod">
         <div class="funkceObsah">
-          <h4>Filters:</h4>
+          <h4 id="filtrNazev">Filters:</h4>
 
-
-
+        <div class="filters">
           <script src="buttonFilter.js"></script>
           <div id="filter">
             <div class="filterButton action">
@@ -58,7 +57,7 @@
             </div>
             <div class="filterButton action">
               <div class="checkbox">
-                <label><input type="checkbox" rel="restarant" onchange="change()" /><span>Restaurant</span></label>
+                <label><input type="checkbox" rel="restaurant" onchange="change()" /><span>Restaurant</span></label>
               </div>
             </div>
             <div class="filterButton action">
@@ -71,6 +70,17 @@
                 <label><input type="checkbox" rel="donuts" onchange="change()" /><span>Donuts</span></label>
               </div>
             </div>
+            <div class="filterButton action">
+              <div class="checkbox">
+                <label><input type="checkbox" rel="education" onchange="change()" /><span>Education</span></label>
+              </div>
+            </div>
+            <div class="filterButton action">
+              <div class="checkbox">
+                <label><input type="checkbox" rel="education" onchange="change()" /><span>Education</span></label>
+              </div>
+            </div>
+          </div>
             <!--<div class="checkbox">
               <label><input type="checkBox" rel="filterOption" /></label>
             </div>
@@ -81,6 +91,7 @@
 
         </div>
       </div>
+        <br>
       <div id="popis">
         <div class="guideObsah">
           <h1>Places</h1>
@@ -133,7 +144,7 @@
               </div>
             </div>
 
-            <div class="bistro">
+            <div class="restaurant">
               <div class="image_wrapper">
                 <img class="placeImage" src="Images/bistrojj.jpeg" alt="" />
                 <div class="overlay overlay_2">
@@ -155,7 +166,7 @@
               </div>
             </div>
 
-            <div class="restarant">
+            <div class="restaurant">
               <div class="image_wrapper">
                 <img class="placeImage" src="Images/arte.jpeg" alt="" />
                 <div class="overlay overlay_2">
@@ -173,6 +184,17 @@
                   <p class="imageCategory">Donuts</p>
                   <h3 class="imageName">Donutpoint</h3>
                   <p class="imageAddress">Hlavní tř. 8/13, Šumperk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="education">
+              <div class="image_wrapper">
+                <img class="placeImage" src="Images/pikola.jpg" alt="" />
+                <div class="overlay overlay_2">
+                  <p class="imageCategory">Education</p>
+                  <h3 class="imageName">VOŠ a SPŠ Šumperk</h3>
+                  <p class="imageAddress">Gen. Krátkého 1, Šumperk</p>
                 </div>
               </div>
             </div>
