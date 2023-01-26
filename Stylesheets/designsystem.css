@@ -271,6 +271,11 @@
     height: 350px;
     filter: grayscale(100%);
     transition: 500ms;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
 }
 .image_wrapper:hover {
     filter: grayscale(0%);
@@ -326,6 +331,7 @@
     overflow: hidden;
     float: left;
     transition: 200ms;
+    touch-action: none;
   }
   
   .filterButton label {
@@ -350,6 +356,7 @@
     display: none;
     color: black;
     transition: 200ms;
+      touch-action: none;
   }
   /* selects all of the text within the input element and changes the color of the text */
   .filterButton label input + span{color: black; transition: 200ms; font-weight: 600; font-family: "Lexend Deca", sans-serif;}
