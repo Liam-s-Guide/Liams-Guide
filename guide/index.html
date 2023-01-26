@@ -6,7 +6,6 @@
     <link rel="stylesheet" href="../Stylesheets/guide.css">
     <script src="script.js"></script>
     <link rel="stylesheet" href="../Stylesheets/designsystem.css">
-    <link rel="stylesheet" href="../Stylesheets/placeImagesAttach.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
 </head>
@@ -28,7 +27,7 @@
               <a href="" class="linkNavG" id="info">Info</a>
               <div class="button">
                 <button class="primaryBigButton" id="discoverButton">Discover</button>
-                <a href="" id="hamburgerLink"><img alt="hamburger" src="../Images/hamburger.svg" id="hamburger"></a>
+                <img alt="hamburger" src="../Images/hamburger.svg" id="hamburger" onclick="hamburger()">
               </div>
             </div>
           </div>
@@ -212,5 +211,24 @@
   <script src="lottie.js"></script>
   <script src="loading.js"></script>
 </div>
+
+<div id="hamburgerMenu">
+  <div class="contentHam">
+    <br>
+    <br>
+    <a href="" class="linkHamburger"><h2>Home</h2></a>
+    <br>
+    <a href="" class="linkHamburger"><h2>Info</h2></a>
+    <br>
+    <a href="" class="linkHamburger"><h2>Contact</h2></a>
+    <br>
+    <a href="" class="linkHamburger" id="discover"><h2>DISCOVER</h2></a>
+    <br>
+    <br>
+    <img alt="hamburger" src="../Images/close.svg" id="close" onclick="hamburgerClose()">
+    <!--<h2 onclick="hamburgerClose()">Zavřít</h2>-->
+  </div>
+</div>
+
 </body>
 </html>
