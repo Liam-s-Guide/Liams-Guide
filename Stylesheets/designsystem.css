@@ -332,11 +332,15 @@
     float: left; line-height: 3.0em;
     width: 10.0em; height: 3.0em;
     transition: 200ms;
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
   }
   
   .filterButton label span {
     text-align: center;
-    padding: 15px 15;
     display: block;
     transition: 200ms;
   }
