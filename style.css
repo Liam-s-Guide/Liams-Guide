@@ -68,7 +68,7 @@ nav{
 }
 .linkNav{
     text-decoration: none;
-    color: grey;
+    color: #848484;
     font-size: 20px;
     margin-right: 50px;
     list-style-type: none;
@@ -78,7 +78,12 @@ nav{
     float: right;
     margin-top: auto;
     margin-bottom: auto;
+    transition: 200ms;
 
+}
+.linkNav:hover{
+    color: #212121;
+    transition: 200ms;
 }
 #discoverButton{
     display: block;
