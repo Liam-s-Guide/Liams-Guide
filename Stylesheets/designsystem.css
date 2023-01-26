@@ -329,7 +329,7 @@
 /*FILTR*/
 
 .filterButton{
-    margin: 4px;
+    margin: 10px;
     background-color: #F1F1F1;
     color: black;
     border-radius: 100px;
@@ -337,6 +337,7 @@
     float: left;
     transition: 200ms;
     touch-action: none;
+
   }
   
   .filterButton label {
