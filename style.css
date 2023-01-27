@@ -120,7 +120,6 @@ nav{
 }
 .contentHam{
     width: 100%;
-    margin-top: 5%;
 }
 .linkHamburger{
     text-decoration: none;
@@ -130,9 +129,6 @@ nav{
 .linkHamburger:hover{
     color: #000000;
     transition: 200ms;
-}
-#discover{
-    color: #DA0037;
 }
 
 /*LOADING*/

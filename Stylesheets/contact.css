@@ -121,19 +121,16 @@ nav{
 }
 .contentHam{
     width: 100%;
-    margin-top: 5%;
 }
 .linkHamburger{
     text-decoration: none;
     color: #2D2D2D;
     transition: 200ms;
+    font-size: 1em;
 }
 .linkHamburger:hover{
     color: #000000;
     transition: 200ms;
-}
-#discover{
-    color: #DA0037;
 }
 
 /*LOADING*/

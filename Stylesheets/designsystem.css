@@ -29,7 +29,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 22px;
+    font-size: 1.5em;
     margin: 4px 2px;
     cursor: pointer;
     font-weight: 600;
@@ -49,7 +49,7 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 1em;
     margin: 4px 2px;
     cursor: pointer;
     font-weight: 600;
@@ -57,7 +57,7 @@
 }
 .primarySmallButton:hover {
     background-color: #AD002C;
-    padding: 10px 40px 10px 40px;
+    padding: 10px 50px 10px 50px;
     transition: 200ms;
 }
 
@@ -392,5 +392,9 @@
         float: left; line-height: 3.0em;
         width: 8.5em; height: 3.0em;
     }
+}
+
+#close{
+    margin-top: 5%;
 }
 
