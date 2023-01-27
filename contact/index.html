@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Liam's Guide - Contact</title>
+    <link rel="stylesheet" href="../Stylesheets/contact.css">
+    <script src="../script.js"></script>
+    <link rel="stylesheet" href="../Stylesheets/designsystem.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../Images/favicon.ico">
+</head>
+<body onload="myFunction()">
+
+<div id="myDiv">
+    <div id="opacityContent">
+<div id="blok1">
+    <div class="obsah">
+        <nav>
+            <div id="navLeft">
+                <img src="../Images/coloredLogo.svg" alt="logo" class="logo">
+                <h1 class="nameNav">Liam's Guide</h1>
+            </div>
+            <div id="navRight">
+                <div class="link">
+                    <a href="" class="linkNav" id="home">Home</a>
+                    <a href="" class="linkNav" id="contact">Contact</a>
+                    <a href="" class="linkNav" id="info">Info</a>
+                <div class="button">
+                <a class="primaryBigButton" id="discoverButton" href="guide/">Discover</a>
+                    <img alt="hamburger" src="../Images/hamburger.svg" id="hamburger" onclick="hamburger()">
+                </div>
+                </div>
+            </div>
+        </nav>
+
+        <div id="mainContent">
+        <div class="rightSideText">
+            <h4 class="category">Liam's guide</h4>
+            <h1 class="pageName">Contact</h1>
+        </div>
+            <img src="../Images/liam2.svg" alt="liam" id="liam" class="liamIllustration">
+        </div>
+    </div>
+</div>
+<div id="blok2">
+    <div id="uvod">
+        <div class="funkceObsah">
+            <h2>Contact</h2>
+
+                <div class="contacts">
+                    <div class="blokProfile">
+                        <img src="Images/adam.jpg" alt="adam" id="adam" class="profilePic">
+                        <h2 class="imageCategory">Adam Koukola</h2>
+                        <h3 class="imageName">Head of Project</h3>
+                        <p class="imageAddress">koukolaa.ita20@vsps-su.cz</p>
+                    </div>
+                    <div class="blokProfile">
+                        <img src="Images/user.svg" alt=vasek" id="vasek" class="profilePic">
+                        <h2 class="imageCategory">Richard Slovák</h2>
+                        <h3 class="imageName">UX / Motion Design</h3>
+                        <p class="imageAddress">slovakr.ita20@vsps-su.cz</p>
+                    </div>
+                    <div class="blokProfile">
+                        <img src="Images/user.svg" alt="risa" id="risa" class="profilePic">
+                        <h2 class="imageCategory">Václav Sládek</h2>
+                        <h3 class="imageName">Back-end developer</h3>
+                        <p class="imageAddress">sladekv.ita20@vsps-su.cz</p>
+                    </div>
+                    <div class="blokProfile">
+                        <img src="Images/user.svg" alt="honza" id="honza" class="profilePic">
+                        <h2 class="imageCategory">Jan Pospíšil</h2>
+                        <h3 class="imageName">Back-end developer</h3>
+                        <p class="imageAddress">pospisij.ita20@vsps-su.cz</p>
+                    </div>
+                </div>
+
+        </div>
+    </div>
+    <div id="popis">
+        <div class="info">
+            <h1>Liam's guide</h1>
+        </div>
+</div>
+</div>
+    </div>
+</div>
+
+<div id="loader-wrapper" class="loading">
+    <div id="anim"></div>
+    <script src="lottie.js"></script>
+    <script src="loading.js"></script>
+</div>
+
+<div id="hamburgerMenu">
+    <div class="contentHam">
+        <br>
+        <br>
+    <a href="" class="linkHamburger"><h2>Home</h2></a>
+        <br>
+    <a href="" class="linkHamburger"><h2>Info</h2></a>
+        <br>
+    <a href="" class="linkHamburger"><h2>Contact</h2></a>
+        <br>
+    <a href="guide/" class="linkHamburger" id="discover"><h2>DISCOVER</h2></a>
+        <br>
+        <br>
+        <img alt="hamburger" src="../Images/close.svg" id="close" onclick="hamburgerClose()">
+    <!--<h2 onclick="hamburgerClose()">Zavřít</h2>-->
+    </div>
+</div>
+
+</body>
+</html>
