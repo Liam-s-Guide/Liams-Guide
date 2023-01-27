@@ -396,7 +396,8 @@ nav{
     }
     .liamIllustration{
         top: 55%;
-        left: 35%;
+        left: 28%;
+        width: 45%;
     }
     .pageName{
         font-size: 2em;
@@ -436,7 +437,7 @@ nav{
     }
     .liamIllustration{
         top: 55%;
-        left: 35%;
+        left: 28%;
     }
     .pageName{
         font-size: 2em;
@@ -476,7 +477,7 @@ nav{
     }
     .liamIllustration{
         top: 53%;
-        left: 35%;
+        left: 28%;
     }
     .pageName{
         font-size: 2em;
@@ -495,6 +496,6 @@ nav{
     }
     .liamIllustration{
         top: 59%;
-        left: 35%;
+        left: 28%;
     }
 }
