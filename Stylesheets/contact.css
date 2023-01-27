@@ -261,7 +261,7 @@ nav{
     .sIllustration{
         top: 25%;
         width: 40%;
-        left: 45%;
+        left: 25%;
     }
     #anim{
         width: 75%;
@@ -282,13 +282,17 @@ nav{
     .blokProfile{
         margin: 15% auto 15% auto;
     }
+    .liamIllustration{
+        width: 50%;
+        left: 35%;
+    }
 }
 @media (max-width: 850px){
     #blok2{
         margin-top: 55%;
     }
     .liamIllustration{
-        top: 50%;
+        top: 25%;
     }
 }
 @media (max-width: 775px){
@@ -296,7 +300,7 @@ nav{
         margin-top: 60%;
     }
     .liamIllustration{
-        top: 60%;
+        top: 26%;
     }
 }
 
@@ -328,8 +332,8 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 63%;
-        left: 35%;
+        top: 38%;
+        left: 25%;
     }
     #anim{
         width: 90%;
@@ -395,7 +399,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 55%;
+        top: 32%;
         left: 28%;
         width: 45%;
     }
@@ -436,7 +440,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 40%;
+        top: 35%;
         left: 28%;
     }
     .pageName{
@@ -495,7 +499,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 45%;
+        top: 35%;
         left: 28%;
     }
 }
