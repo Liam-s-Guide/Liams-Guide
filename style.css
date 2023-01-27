@@ -118,9 +118,6 @@ nav{
     transition: 500ms;
     display: none;
 }
-.contentHam{
-    width: 100%;
-}
 .linkHamburger{
     text-decoration: none;
     color: #2D2D2D;
