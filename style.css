@@ -22,7 +22,6 @@ body{
 #blok2{
     width: 100%;
     height: 100%;
-    background-color: #DA0037;
     position: absolute;
     margin-top: 20%;
     color: white;
@@ -32,7 +31,7 @@ body{
     width: 29%;
     left: 55%;
     opacity: 0;
-    top: 30%;
+    top: 25%;
     z-index: -1;
     -webkit-user-drag: none;
     user-select: none;
@@ -178,15 +177,16 @@ nav{
 
 #uvod{
     width: 100%;
-    height: 100%;
     color: white;
+    display: block;
+    background-color: #DA0037;
 }
 
 #popis{
     width: 100%;
-    height: 100%;
     color: black;
     background: white;
+    display: block;
 }
 
 .obsah{
@@ -194,18 +194,51 @@ nav{
 }
 
 .funkceObsah{
-    width: 100%;
-    height:100%;
     display: block;
-    margin: auto;
-
+    padding: 50px;
 }
+.info{
+    display: block;
+    padding: 50px;
+}
+
+.contacts{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: auto;
+    grid-gap: 1rem;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.blokProfile{
+    width: 80%;
+    text-align: center;
+    display: block;
+    position: relative;
+}
+.profilePic{
+    width: 50%;
+    border-radius: 1000px;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
 @media (max-width: 1400px){
     #blok2{
         margin-top: 15%;
     }
     .liamIllustration{
-        top: 35%;
+        top: 30%;
+    }
+    .contacts{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .blokProfile{
+        margin-bottom: 15%;
     }
 }
 @media (max-width: 950px) {
@@ -225,9 +258,9 @@ nav{
         margin-top: 40%;
     }
     .liamIllustration{
-        top: 28%;
+        top: 25%;
         width: 50%;
-        left: 40%;
+        left: 45%;
     }
     #anim{
         width: 75%;
@@ -242,13 +275,19 @@ nav{
         opacity: 1;
         transition: 500ms;
     }
+    .contacts{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .blokProfile{
+        margin: 15% auto 15% auto;
+    }
 }
 @media (max-width: 850px){
     #blok2{
         margin-top: 55%;
     }
     .liamIllustration{
-        top: 35%;
+        top: 50%;
     }
 }
 @media (max-width: 775px){
@@ -256,7 +295,7 @@ nav{
         margin-top: 60%;
     }
     .liamIllustration{
-        top: 45%;
+        top: 55%;
     }
 }
 
@@ -288,7 +327,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 70%;
+        top: 55%;
         left: 25%
     }
     #anim{
@@ -316,6 +355,13 @@ nav{
         font-size: 1.5em;
         font-weight: 400;
         color: #848484;
+    }
+    .contacts{
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+    }
+    .blokProfile{
+        margin: 15% auto 15% auto;
     }
 }
 @media (max-width: 505px) {
@@ -348,7 +394,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 47%;
+        top: 48%;
         left: 25%
     }
     .pageName{
@@ -388,7 +434,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 60%;
+        top: 48%;
         left: 25%
     }
     .pageName{
@@ -428,7 +474,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 63%;
+        top: 47%;
         left: 25%
     }
     .pageName{
@@ -447,7 +493,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 75%;
+        top: 50%;
         left: 25%
     }
 }
