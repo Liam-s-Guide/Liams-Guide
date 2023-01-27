@@ -287,7 +287,7 @@ nav{
         margin-top: 55%;
     }
     .liamIllustration{
-        top: 55%;
+        top: 60%;
     }
 }
 @media (max-width: 775px){
@@ -295,7 +295,7 @@ nav{
         margin-top: 60%;
     }
     .liamIllustration{
-        top: 60%;
+        top: 65%;
     }
 }
 
@@ -327,7 +327,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 55%;
+        top: 60%;
         left: 25%
     }
     #anim{
@@ -394,7 +394,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 53%;
+        top: 58%;
         left: 25%
     }
     .pageName{
@@ -434,7 +434,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 53%;
+        top: 58%;
         left: 25%
     }
     .pageName{
@@ -474,7 +474,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 52%;
+        top: 57%;
         left: 25%
     }
     .pageName{
@@ -493,7 +493,7 @@ nav{
         margin-top: 75%;
     }
     .liamIllustration{
-        top: 63%;
+        top: 68%;
         left: 25%
     }
 }
