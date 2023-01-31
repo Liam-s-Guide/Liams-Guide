@@ -316,11 +316,17 @@
     inset: 0;
     transition: 200ms;
 }
+.imageCategory{
+    margin-top: -10px;
+}
 .imageName{
     margin-top: -10px;
 }
 .imageAddress{
-    margin-top: 90px;
+    margin-top: 70px;
+}
+.textPlace{
+    padding: 25px;
 }
 
 /*FILTR*/
