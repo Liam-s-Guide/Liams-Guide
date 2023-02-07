@@ -198,7 +198,6 @@
     background-color: #ffffff;
     border: none;
     border-radius: 8px;
-    color: white;
     padding: 20px 65px 20px 65px;
     text-align: center;
     text-decoration: none;
@@ -208,6 +207,7 @@
     cursor: pointer;
     font-weight: 600;
     transition: 200ms;
+    color: black;
 }
 .thirdBigButtonDark:hover {
     background-color: #C1C1C1;
@@ -401,5 +401,54 @@
 
 #close{
     margin-top: 5%;
+}
+
+/*FOOTER*/
+footer{
+    background-color: #DA0037;
+    width: 100%;
+    display: block;
+    color: white;
+}
+.footerContent{
+    padding: 50px;
+    display: block;
+    background-color: #DA0037;
+}
+.footerPadding{
+    display: inline-flex;
+    width: 100%;
+    background-color: #DA0037;
+}
+.buttonFooterPlace{
+    width: 50%;
+}
+.textFooterPlace{
+    width: 50%;
+}
+#footerButton{
+    margin-top: auto;
+    margin-bottom: auto;
+    float: right;
+}
+
+@media (max-width: 950px) {
+    .footerPadding{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+    .buttonFooterPlace{
+        width: 100%;
+    }
+    .textFooterPlace{
+        width: 100%;
+    }
+    #footerButton{
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5%;
+        float: none;
+    }
 }
 
